@@ -1,0 +1,2572 @@
+[
+  {
+    "property": [
+      {
+        "id": "0105ef27-d513-4a42-93b2-38aa5486d658",
+        "address": "123 Main St",
+        "property_value": 63636,
+        "property_type": "House",
+        "property_status": "For Sale",
+        "created_at": "2023-10-05T07:08:20.992Z",
+        "updated_at": "2023-10-06T03:49:26.984Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "052ecf9f-e4be-40b8-8ebe-978eed9385ac",
+        "address": "456 Elm St",
+        "property_value": 59938,
+        "property_type": "Apartment",
+        "property_status": "For Rent",
+        "created_at": "2023-10-06T04:00:48.847Z",
+        "updated_at": "2023-10-06T01:08:08.406Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "8e1fc60a-a864-4047-91e2-75493952c9bb",
+        "address": "789 Oak St",
+        "property_value": 34835,
+        "property_type": "Condo",
+        "property_status": "Under Contract",
+        "created_at": "2023-10-05T15:39:50.551Z",
+        "updated_at": "2023-10-05T17:24:16.577Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "1c45610a-c864-4311-9293-d3540459f7bb",
+        "address": "321 Pine St",
+        "property_value": 20879,
+        "property_type": "Townhouse",
+        "property_status": "Sold",
+        "created_at": "2023-10-06T04:10:03.211Z",
+        "updated_at": "2023-10-05T05:56:52.033Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "b64d118e-565d-4f95-a323-ca5da16ff371",
+        "address": "654 Maple St",
+        "property_value": 29232,
+        "property_type": "Duplex",
+        "property_status": "Vacant",
+        "created_at": "2023-10-05T06:27:30.317Z",
+        "updated_at": "2023-10-05T05:29:29.299Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "loan": [
+      {
+        "id": "7d57d14a-639d-4337-94ea-735e724fc8be",
+        "loan_amount": 9853,
+        "interest_rate": 59335,
+        "loan_term": 90085,
+        "loan_status": "Pending",
+        "created_at": "2023-10-05T19:52:01.748Z",
+        "updated_at": "2023-10-06T00:17:50.155Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "b64d118e-565d-4f95-a323-ca5da16ff371"
+      },
+      {
+        "id": "6dee133c-1575-448a-8d58-c538a818c2ed",
+        "loan_amount": 41895,
+        "interest_rate": 91510,
+        "loan_term": 13541,
+        "loan_status": "Approved",
+        "created_at": "2023-10-05T09:54:29.906Z",
+        "updated_at": "2023-10-06T00:11:42.021Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "0105ef27-d513-4a42-93b2-38aa5486d658"
+      },
+      {
+        "id": "c7945900-467f-49d3-92d7-7d691e16eaf6",
+        "loan_amount": 73447,
+        "interest_rate": 76290,
+        "loan_term": 6564,
+        "loan_status": "Rejected",
+        "created_at": "2023-10-05T12:47:10.576Z",
+        "updated_at": "2023-10-05T20:53:42.592Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "8e1fc60a-a864-4047-91e2-75493952c9bb"
+      },
+      {
+        "id": "450807d4-1e5a-4bfa-bad4-7c9d7273013f",
+        "loan_amount": 86587,
+        "interest_rate": 32226,
+        "loan_term": 15378,
+        "loan_status": "In Review",
+        "created_at": "2023-10-05T18:53:38.570Z",
+        "updated_at": "2023-10-06T01:32:09.476Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "052ecf9f-e4be-40b8-8ebe-978eed9385ac"
+      },
+      {
+        "id": "96796687-587d-477e-937e-bea9f6dca751",
+        "loan_amount": 70086,
+        "interest_rate": 90217,
+        "loan_term": 18149,
+        "loan_status": "Closed",
+        "created_at": "2023-10-05T11:21:29.278Z",
+        "updated_at": "2023-10-05T20:11:09.568Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "052ecf9f-e4be-40b8-8ebe-978eed9385ac"
+      }
+    ],
+    "quote": [
+      {
+        "id": "d12af713-be52-483d-858c-241e00dd9b47",
+        "quote_amount": 1679,
+        "interest_rate": 74890,
+        "loan_term": 67634,
+        "quote_status": "Pending",
+        "created_at": "2023-10-05T16:05:28.689Z",
+        "updated_at": "2023-10-05T12:05:17.095Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "6dee133c-1575-448a-8d58-c538a818c2ed"
+      },
+      {
+        "id": "4a5442b4-86e5-4f61-9246-24fee526a005",
+        "quote_amount": 24020,
+        "interest_rate": 18803,
+        "loan_term": 58459,
+        "quote_status": "Accepted",
+        "created_at": "2023-10-05T06:05:44.735Z",
+        "updated_at": "2023-10-05T23:46:40.755Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "6dee133c-1575-448a-8d58-c538a818c2ed"
+      },
+      {
+        "id": "5f69a2e2-74e6-4d1c-934c-fdb2373b3133",
+        "quote_amount": 5521,
+        "interest_rate": 55699,
+        "loan_term": 81655,
+        "quote_status": "Declined",
+        "created_at": "2023-10-05T21:04:08.144Z",
+        "updated_at": "2023-10-05T05:01:38.525Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "96796687-587d-477e-937e-bea9f6dca751"
+      },
+      {
+        "id": "1756436d-2e82-4019-bc37-2165023f9b41",
+        "quote_amount": 47995,
+        "interest_rate": 69778,
+        "loan_term": 32473,
+        "quote_status": "Expired",
+        "created_at": "2023-10-05T23:32:37.317Z",
+        "updated_at": "2023-10-05T20:46:09.556Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "7d57d14a-639d-4337-94ea-735e724fc8be"
+      },
+      {
+        "id": "6c02bfd4-ef35-4d02-bffd-4a2f7356e4c9",
+        "quote_amount": 7340,
+        "interest_rate": 90493,
+        "loan_term": 72037,
+        "quote_status": "Reviewed",
+        "created_at": "2023-10-05T07:14:34.587Z",
+        "updated_at": "2023-10-05T10:22:23.138Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "7d57d14a-639d-4337-94ea-735e724fc8be"
+      }
+    ],
+    "application": [
+      {
+        "id": "e45e74cd-1d0c-4f07-9891-e686fad6b97b",
+        "application_status": "Submitted",
+        "created_at": "2023-10-05T19:10:26.334Z",
+        "updated_at": "2023-10-05T09:30:00.760Z",
+        "loan_id": "c7945900-467f-49d3-92d7-7d691e16eaf6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36ebbaa4-792e-4c9a-a82f-f7ccb0ca14de",
+        "application_status": "In Progress",
+        "created_at": "2023-10-05T06:08:25.306Z",
+        "updated_at": "2023-10-05T06:56:07.393Z",
+        "loan_id": "96796687-587d-477e-937e-bea9f6dca751",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a01be62-8c9d-4f4b-8372-276894d36de7",
+        "application_status": "Approved",
+        "created_at": "2023-10-05T17:59:11.084Z",
+        "updated_at": "2023-10-05T17:33:05.218Z",
+        "loan_id": "6dee133c-1575-448a-8d58-c538a818c2ed",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6618ee21-2132-4091-8cff-b622a4ef055f",
+        "application_status": "Rejected",
+        "created_at": "2023-10-05T21:50:34.898Z",
+        "updated_at": "2023-10-05T10:06:30.070Z",
+        "loan_id": "6dee133c-1575-448a-8d58-c538a818c2ed",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3bdcb20-22ec-4312-a455-c3ba164effae",
+        "application_status": "Completed",
+        "created_at": "2023-10-05T12:38:45.936Z",
+        "updated_at": "2023-10-05T10:35:08.003Z",
+        "loan_id": "450807d4-1e5a-4bfa-bad4-7c9d7273013f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f3741256-b296-4390-b425-336db3c869ce",
+        "email": "Madilyn31@roq.tech",
+        "firstName": "Pearl",
+        "lastName": "O'Hara",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31469511",
+        "tenantId": null
+      },
+      {
+        "reference": "ab4d5ff7-3d0d-4848-9ee5-c22bb0dec928",
+        "email": "Maureen_Blick@roq.tech",
+        "firstName": "Sylvia",
+        "lastName": "Beahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/563.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d07b66ba-41a3-49bf-9162-b963426edfa4",
+        "email": "Kirk.Vandervort79@roq.tech",
+        "firstName": "Marilie",
+        "lastName": "Barton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49157276",
+        "tenantId": null
+      },
+      {
+        "reference": "73bea336-1709-4b5b-94ac-a6e1f79c6974",
+        "email": "Betty_Jenkins@roq.tech",
+        "firstName": "Georgiana",
+        "lastName": "Hagenes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10133310",
+        "tenantId": null
+      },
+      {
+        "reference": "249e462b-68a1-4047-a6d1-8a22f90d56f4",
+        "email": "Lina.Swift@roq.tech",
+        "firstName": "Bill",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/332.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "property": [
+      {
+        "id": "05155738-4bba-4475-94e5-45817e2a760e",
+        "address": "123 Main St",
+        "property_value": 82757,
+        "property_type": "House",
+        "property_status": "For Sale",
+        "created_at": "2023-10-05T06:10:04.905Z",
+        "updated_at": "2023-10-06T03:33:37.778Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "fd769a18-8649-4ea4-8e91-ae0c8aad9cbb",
+        "address": "456 Elm St",
+        "property_value": 93903,
+        "property_type": "Apartment",
+        "property_status": "For Rent",
+        "created_at": "2023-10-05T08:55:16.336Z",
+        "updated_at": "2023-10-06T03:27:04.677Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "0739d8f5-4708-4e68-a38d-85be52614eb1",
+        "address": "789 Oak St",
+        "property_value": 24775,
+        "property_type": "Condo",
+        "property_status": "Under Contract",
+        "created_at": "2023-10-05T23:23:30.416Z",
+        "updated_at": "2023-10-05T06:40:07.925Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "4cfb64a4-8a0c-4f81-9aeb-fcbfb43a7230",
+        "address": "321 Maple St",
+        "property_value": 58611,
+        "property_type": "Townhouse",
+        "property_status": "Sold",
+        "created_at": "2023-10-05T20:38:16.520Z",
+        "updated_at": "2023-10-05T09:00:49.055Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "0644f58e-a52a-4062-b1f0-cd0b89c669b6",
+        "address": "654 Pine St",
+        "property_value": 9871,
+        "property_type": "Duplex",
+        "property_status": "Vacant",
+        "created_at": "2023-10-05T05:24:15.204Z",
+        "updated_at": "2023-10-05T20:23:44.531Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "loan": [
+      {
+        "id": "58d22c9e-afea-47ad-ab1e-43c0704e8347",
+        "loan_amount": 65771,
+        "interest_rate": 68911,
+        "loan_term": 79227,
+        "loan_status": "Pending",
+        "created_at": "2023-10-06T04:32:30.189Z",
+        "updated_at": "2023-10-05T05:28:10.922Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "0739d8f5-4708-4e68-a38d-85be52614eb1"
+      },
+      {
+        "id": "67c9221c-4f3e-4a2b-a353-50c9bde48a3b",
+        "loan_amount": 2542,
+        "interest_rate": 6647,
+        "loan_term": 91865,
+        "loan_status": "Approved",
+        "created_at": "2023-10-06T03:43:35.085Z",
+        "updated_at": "2023-10-05T05:38:30.786Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "4cfb64a4-8a0c-4f81-9aeb-fcbfb43a7230"
+      },
+      {
+        "id": "b38ea797-50a6-4fa0-a160-501b0b0f7dfc",
+        "loan_amount": 81386,
+        "interest_rate": 47720,
+        "loan_term": 40069,
+        "loan_status": "Rejected",
+        "created_at": "2023-10-05T05:20:26.617Z",
+        "updated_at": "2023-10-06T00:02:33.236Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "0644f58e-a52a-4062-b1f0-cd0b89c669b6"
+      },
+      {
+        "id": "c317e7c8-84ba-422b-a95d-069c739958f5",
+        "loan_amount": 24761,
+        "interest_rate": 87529,
+        "loan_term": 80364,
+        "loan_status": "In Progress",
+        "created_at": "2023-10-05T23:52:16.673Z",
+        "updated_at": "2023-10-05T13:43:55.466Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "4cfb64a4-8a0c-4f81-9aeb-fcbfb43a7230"
+      },
+      {
+        "id": "27bbec2c-aa3b-4413-bc06-d9a251dbc279",
+        "loan_amount": 27863,
+        "interest_rate": 63010,
+        "loan_term": 81456,
+        "loan_status": "Completed",
+        "created_at": "2023-10-05T15:01:22.983Z",
+        "updated_at": "2023-10-06T01:37:48.191Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "05155738-4bba-4475-94e5-45817e2a760e"
+      }
+    ],
+    "quote": [
+      {
+        "id": "a7a5b88d-02b0-4029-826e-38206f9da014",
+        "quote_amount": 8928,
+        "interest_rate": 80835,
+        "loan_term": 67388,
+        "quote_status": "New",
+        "created_at": "2023-10-06T02:53:14.510Z",
+        "updated_at": "2023-10-05T21:45:28.580Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "b38ea797-50a6-4fa0-a160-501b0b0f7dfc"
+      },
+      {
+        "id": "7290f400-6cd4-4055-93a6-c494257190e3",
+        "quote_amount": 7505,
+        "interest_rate": 75156,
+        "loan_term": 25298,
+        "quote_status": "Accepted",
+        "created_at": "2023-10-05T21:12:06.728Z",
+        "updated_at": "2023-10-05T09:03:18.744Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "67c9221c-4f3e-4a2b-a353-50c9bde48a3b"
+      },
+      {
+        "id": "65d7ba6c-d69f-45e2-9209-afd2e40538e2",
+        "quote_amount": 14093,
+        "interest_rate": 32280,
+        "loan_term": 14029,
+        "quote_status": "Declined",
+        "created_at": "2023-10-06T00:43:57.079Z",
+        "updated_at": "2023-10-05T17:57:09.451Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "27bbec2c-aa3b-4413-bc06-d9a251dbc279"
+      },
+      {
+        "id": "1fc1b19d-8909-49a8-997e-a06505b854e6",
+        "quote_amount": 79336,
+        "interest_rate": 52103,
+        "loan_term": 64858,
+        "quote_status": "Expired",
+        "created_at": "2023-10-05T17:35:41.670Z",
+        "updated_at": "2023-10-05T18:50:47.342Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "58d22c9e-afea-47ad-ab1e-43c0704e8347"
+      },
+      {
+        "id": "9da00cfa-7207-4f10-b9de-67f6c65736fb",
+        "quote_amount": 85576,
+        "interest_rate": 98600,
+        "loan_term": 565,
+        "quote_status": "Pending",
+        "created_at": "2023-10-05T11:23:48.091Z",
+        "updated_at": "2023-10-05T05:05:21.312Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "b38ea797-50a6-4fa0-a160-501b0b0f7dfc"
+      }
+    ],
+    "application": [
+      {
+        "id": "4e397ae0-00ce-478c-a6af-fbcfddbad8c2",
+        "application_status": "Submitted",
+        "created_at": "2023-10-05T07:35:11.593Z",
+        "updated_at": "2023-10-05T17:05:17.034Z",
+        "loan_id": "c317e7c8-84ba-422b-a95d-069c739958f5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4340103b-a087-4155-bf73-7a856fc22912",
+        "application_status": "Under Review",
+        "created_at": "2023-10-05T20:52:37.248Z",
+        "updated_at": "2023-10-05T20:15:14.990Z",
+        "loan_id": "27bbec2c-aa3b-4413-bc06-d9a251dbc279",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3aadeca-af33-455a-8b96-6f581281fb0f",
+        "application_status": "Approved",
+        "created_at": "2023-10-05T22:06:46.050Z",
+        "updated_at": "2023-10-06T01:56:39.167Z",
+        "loan_id": "67c9221c-4f3e-4a2b-a353-50c9bde48a3b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "965459c9-1db5-4798-a9f7-d101b740c053",
+        "application_status": "Rejected",
+        "created_at": "2023-10-06T01:39:52.446Z",
+        "updated_at": "2023-10-05T06:39:46.202Z",
+        "loan_id": "58d22c9e-afea-47ad-ab1e-43c0704e8347",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a817a43-e183-4de4-889c-9417208c33fb",
+        "application_status": "Pending",
+        "created_at": "2023-10-06T03:37:50.780Z",
+        "updated_at": "2023-10-05T18:43:00.484Z",
+        "loan_id": "b38ea797-50a6-4fa0-a160-501b0b0f7dfc",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9f57c299-ac92-464a-b3e0-9bcf87dbf176",
+        "email": "Oceane.Brakus42@roq.tech",
+        "firstName": "Roderick",
+        "lastName": "Lebsack",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/145.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "023ae5f3-80af-42d8-9568-a5d19f40b78d",
+        "email": "Lea88@roq.tech",
+        "firstName": "Shyann",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40291144",
+        "tenantId": null
+      },
+      {
+        "reference": "ed437732-a357-4106-8973-d1cd00ca86bf",
+        "email": "Karl_Kihn@roq.tech",
+        "firstName": "Torrey",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74581594",
+        "tenantId": null
+      },
+      {
+        "reference": "08b19051-c638-4c48-9696-4d47335fc8d2",
+        "email": "Paris_Emmerich-Ward@roq.tech",
+        "firstName": "Riley",
+        "lastName": "Sanford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/552.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "560e17b0-f6dc-4319-a305-cdda3c12ec66",
+        "email": "Noe79@roq.tech",
+        "firstName": "Andreanne",
+        "lastName": "Keebler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/106.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "property": [
+      {
+        "id": "ad25d825-61b8-4750-9298-8e5e5d31e67f",
+        "address": "123 Main St",
+        "property_value": 5817,
+        "property_type": "House",
+        "property_status": "For Sale",
+        "created_at": "2023-10-05T04:50:04.395Z",
+        "updated_at": "2023-10-05T11:36:46.507Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "7ff6eccf-a956-4c26-be62-f1f6c2e7a8f4",
+        "address": "456 Elm St",
+        "property_value": 99398,
+        "property_type": "Apartment",
+        "property_status": "For Rent",
+        "created_at": "2023-10-05T21:46:19.258Z",
+        "updated_at": "2023-10-06T00:19:18.102Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "8cec617b-f26b-4ecd-ab07-96acddf25b39",
+        "address": "789 Oak St",
+        "property_value": 49624,
+        "property_type": "Condo",
+        "property_status": "Under Construction",
+        "created_at": "2023-10-05T06:16:22.131Z",
+        "updated_at": "2023-10-06T02:10:31.810Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "89bc7c29-ab49-4484-be3b-014f4dc7d9db",
+        "address": "321 Maple St",
+        "property_value": 92998,
+        "property_type": "Townhouse",
+        "property_status": "Vacant",
+        "created_at": "2023-10-05T07:53:26.561Z",
+        "updated_at": "2023-10-05T15:07:54.398Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "6953cc2e-839f-45ad-994e-b1aa24253cf3",
+        "address": "654 Pine St",
+        "property_value": 40722,
+        "property_type": "Duplex",
+        "property_status": "Occupied",
+        "created_at": "2023-10-06T00:57:19.488Z",
+        "updated_at": "2023-10-05T21:00:46.590Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "loan": [
+      {
+        "id": "f05de1d9-a946-4d35-9349-7b9643111b9f",
+        "loan_amount": 56267,
+        "interest_rate": 6273,
+        "loan_term": 46823,
+        "loan_status": "Pending",
+        "created_at": "2023-10-06T01:24:35.054Z",
+        "updated_at": "2023-10-05T06:21:40.959Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "ad25d825-61b8-4750-9298-8e5e5d31e67f"
+      },
+      {
+        "id": "4c7ddfec-b480-429a-add0-99f3d355f046",
+        "loan_amount": 84116,
+        "interest_rate": 37314,
+        "loan_term": 10528,
+        "loan_status": "Approved",
+        "created_at": "2023-10-05T19:50:26.146Z",
+        "updated_at": "2023-10-06T00:00:16.816Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "89bc7c29-ab49-4484-be3b-014f4dc7d9db"
+      },
+      {
+        "id": "f607cca1-df04-4c52-ba90-61925d8e8b41",
+        "loan_amount": 87362,
+        "interest_rate": 35918,
+        "loan_term": 48610,
+        "loan_status": "Rejected",
+        "created_at": "2023-10-05T09:26:10.325Z",
+        "updated_at": "2023-10-06T04:27:37.938Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "7ff6eccf-a956-4c26-be62-f1f6c2e7a8f4"
+      },
+      {
+        "id": "36ff9bdc-5c00-437e-b794-721f4d0d813b",
+        "loan_amount": 83230,
+        "interest_rate": 52491,
+        "loan_term": 72133,
+        "loan_status": "In Progress",
+        "created_at": "2023-10-05T19:50:43.285Z",
+        "updated_at": "2023-10-06T04:00:09.457Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "ad25d825-61b8-4750-9298-8e5e5d31e67f"
+      },
+      {
+        "id": "e3d8d409-4223-48a8-a939-1620e14f294a",
+        "loan_amount": 42282,
+        "interest_rate": 32307,
+        "loan_term": 63245,
+        "loan_status": "Completed",
+        "created_at": "2023-10-05T15:11:22.825Z",
+        "updated_at": "2023-10-05T10:20:52.557Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "89bc7c29-ab49-4484-be3b-014f4dc7d9db"
+      }
+    ],
+    "quote": [
+      {
+        "id": "18731a59-f42f-455f-b9a0-a6b4014ff99c",
+        "quote_amount": 48337,
+        "interest_rate": 80038,
+        "loan_term": 80987,
+        "quote_status": "New",
+        "created_at": "2023-10-05T08:24:12.360Z",
+        "updated_at": "2023-10-05T11:45:50.738Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "f05de1d9-a946-4d35-9349-7b9643111b9f"
+      },
+      {
+        "id": "4dc010a8-fe98-41d3-bd4d-f6429b5f997b",
+        "quote_amount": 91931,
+        "interest_rate": 17737,
+        "loan_term": 77677,
+        "quote_status": "Accepted",
+        "created_at": "2023-10-05T07:00:58.634Z",
+        "updated_at": "2023-10-05T21:54:52.600Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "f05de1d9-a946-4d35-9349-7b9643111b9f"
+      },
+      {
+        "id": "10f00845-4f88-454f-b0e0-db0a49ef4e99",
+        "quote_amount": 44876,
+        "interest_rate": 89697,
+        "loan_term": 48037,
+        "quote_status": "Declined",
+        "created_at": "2023-10-05T13:43:47.835Z",
+        "updated_at": "2023-10-05T17:30:37.723Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "f05de1d9-a946-4d35-9349-7b9643111b9f"
+      },
+      {
+        "id": "c1a4496f-91bc-4fe3-9e97-607f228060ba",
+        "quote_amount": 49808,
+        "interest_rate": 31285,
+        "loan_term": 26328,
+        "quote_status": "Expired",
+        "created_at": "2023-10-05T21:51:29.810Z",
+        "updated_at": "2023-10-05T21:57:45.288Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "4c7ddfec-b480-429a-add0-99f3d355f046"
+      },
+      {
+        "id": "e9d311b9-e7d9-457e-acd3-b7632e5682a1",
+        "quote_amount": 78282,
+        "interest_rate": 58823,
+        "loan_term": 24340,
+        "quote_status": "Pending",
+        "created_at": "2023-10-06T02:49:12.223Z",
+        "updated_at": "2023-10-05T21:38:19.597Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "f05de1d9-a946-4d35-9349-7b9643111b9f"
+      }
+    ],
+    "application": [
+      {
+        "id": "8d03f17e-579d-44cb-b70d-5a766f331292",
+        "application_status": "Submitted",
+        "created_at": "2023-10-05T14:02:22.118Z",
+        "updated_at": "2023-10-05T17:34:31.619Z",
+        "loan_id": "36ff9bdc-5c00-437e-b794-721f4d0d813b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5e22618-2783-41e3-9fd0-244b5b9efb61",
+        "application_status": "Under Review",
+        "created_at": "2023-10-05T18:37:29.441Z",
+        "updated_at": "2023-10-05T19:46:00.716Z",
+        "loan_id": "f607cca1-df04-4c52-ba90-61925d8e8b41",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88395786-7555-46af-baf5-c0cba892e4ab",
+        "application_status": "Approved",
+        "created_at": "2023-10-05T05:51:10.547Z",
+        "updated_at": "2023-10-05T18:41:31.543Z",
+        "loan_id": "4c7ddfec-b480-429a-add0-99f3d355f046",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a7eedd7-cf52-443e-ab78-a1528b2a7f6b",
+        "application_status": "Rejected",
+        "created_at": "2023-10-05T06:06:29.217Z",
+        "updated_at": "2023-10-05T07:01:04.913Z",
+        "loan_id": "f05de1d9-a946-4d35-9349-7b9643111b9f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3865fe27-f92d-4922-b111-17770088441e",
+        "application_status": "Pending",
+        "created_at": "2023-10-05T21:48:35.606Z",
+        "updated_at": "2023-10-05T20:11:23.944Z",
+        "loan_id": "e3d8d409-4223-48a8-a939-1620e14f294a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ecfd443a-1784-4fe1-82b0-0ec034cc8027",
+        "email": "Amparo.Roberts@roq.tech",
+        "firstName": "Asha",
+        "lastName": "Welch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21828391",
+        "tenantId": null
+      },
+      {
+        "reference": "90198941-0e60-41d4-94d8-fe27947b6c71",
+        "email": "Josie82@roq.tech",
+        "firstName": "Judy",
+        "lastName": "Schultz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/485.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9fcd7218-4fc2-4da1-a842-3213143a59b3",
+        "email": "Roman.Lemke-Murazik29@roq.tech",
+        "firstName": "Arvel",
+        "lastName": "Anderson-Farrell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/741.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6dd9ba8d-8707-4985-8a81-4b3b291fcfe7",
+        "email": "Jarrod91@roq.tech",
+        "firstName": "Marvin",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/35.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ab73b333-c012-4c90-b1e3-d84041cc322d",
+        "email": "Joany94@roq.tech",
+        "firstName": "Torrance",
+        "lastName": "Vandervort",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67418965",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "property": [
+      {
+        "id": "eca9a4cd-9bc9-4837-aaf5-14bb88a87cd9",
+        "address": "123 Main St",
+        "property_value": 85631,
+        "property_type": "House",
+        "property_status": "For Sale",
+        "created_at": "2023-10-05T16:38:11.355Z",
+        "updated_at": "2023-10-06T04:41:41.602Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "fd1cfa72-f7ea-443d-b15e-6302f4c09fdf",
+        "address": "456 Elm St",
+        "property_value": 20052,
+        "property_type": "Apartment",
+        "property_status": "For Rent",
+        "created_at": "2023-10-05T10:52:07.077Z",
+        "updated_at": "2023-10-05T09:51:37.034Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "400b6317-8e84-48b6-9753-cfe90f6904cf",
+        "address": "789 Oak St",
+        "property_value": 40663,
+        "property_type": "Condo",
+        "property_status": "Sold",
+        "created_at": "2023-10-05T22:58:04.358Z",
+        "updated_at": "2023-10-05T16:50:56.820Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "52369090-c182-42db-b538-e602d78f4aa0",
+        "address": "321 Maple St",
+        "property_value": 19046,
+        "property_type": "Townhouse",
+        "property_status": "Rented",
+        "created_at": "2023-10-06T04:04:49.450Z",
+        "updated_at": "2023-10-05T17:36:03.775Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "85977ae9-b09f-4f73-97ca-8d340620e787",
+        "address": "654 Pine St",
+        "property_value": 8711,
+        "property_type": "Duplex",
+        "property_status": "Under Construction",
+        "created_at": "2023-10-06T01:16:02.373Z",
+        "updated_at": "2023-10-05T23:30:44.971Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "loan": [
+      {
+        "id": "800c0d84-de1c-4d8a-9f53-72b54d0ad1f6",
+        "loan_amount": 86186,
+        "interest_rate": 30522,
+        "loan_term": 90973,
+        "loan_status": "Pending",
+        "created_at": "2023-10-05T08:04:16.941Z",
+        "updated_at": "2023-10-05T21:06:59.018Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "eca9a4cd-9bc9-4837-aaf5-14bb88a87cd9"
+      },
+      {
+        "id": "33ac2211-39cb-44e8-a73f-56357717abb1",
+        "loan_amount": 47176,
+        "interest_rate": 55749,
+        "loan_term": 83811,
+        "loan_status": "Approved",
+        "created_at": "2023-10-06T01:13:26.352Z",
+        "updated_at": "2023-10-05T12:11:27.008Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "400b6317-8e84-48b6-9753-cfe90f6904cf"
+      },
+      {
+        "id": "679d57c9-6932-4204-8acb-cb7c66fb9ccc",
+        "loan_amount": 45606,
+        "interest_rate": 28993,
+        "loan_term": 72460,
+        "loan_status": "Rejected",
+        "created_at": "2023-10-05T11:20:20.819Z",
+        "updated_at": "2023-10-05T19:42:47.653Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "85977ae9-b09f-4f73-97ca-8d340620e787"
+      },
+      {
+        "id": "11ea61d2-559d-4495-bdae-262df093bf54",
+        "loan_amount": 8296,
+        "interest_rate": 15183,
+        "loan_term": 46979,
+        "loan_status": "In Progress",
+        "created_at": "2023-10-05T21:03:51.012Z",
+        "updated_at": "2023-10-05T12:11:20.951Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "52369090-c182-42db-b538-e602d78f4aa0"
+      },
+      {
+        "id": "9dd6507f-5a7e-4c68-a234-cc44caff5144",
+        "loan_amount": 18316,
+        "interest_rate": 23303,
+        "loan_term": 32338,
+        "loan_status": "Completed",
+        "created_at": "2023-10-05T11:39:06.282Z",
+        "updated_at": "2023-10-05T05:54:06.243Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "fd1cfa72-f7ea-443d-b15e-6302f4c09fdf"
+      }
+    ],
+    "quote": [
+      {
+        "id": "e249fe32-aba0-452e-89de-5df67a56328e",
+        "quote_amount": 18038,
+        "interest_rate": 51934,
+        "loan_term": 56570,
+        "quote_status": "Pending",
+        "created_at": "2023-10-06T02:55:42.444Z",
+        "updated_at": "2023-10-05T05:41:58.300Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "33ac2211-39cb-44e8-a73f-56357717abb1"
+      },
+      {
+        "id": "5a7c04b8-e334-4f73-b647-890b3c97aac2",
+        "quote_amount": 52506,
+        "interest_rate": 2304,
+        "loan_term": 61272,
+        "quote_status": "Accepted",
+        "created_at": "2023-10-05T10:17:19.584Z",
+        "updated_at": "2023-10-06T02:34:28.456Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "679d57c9-6932-4204-8acb-cb7c66fb9ccc"
+      },
+      {
+        "id": "c4dcf7ad-48ac-495c-ad9d-846058eada19",
+        "quote_amount": 37056,
+        "interest_rate": 6229,
+        "loan_term": 77854,
+        "quote_status": "Declined",
+        "created_at": "2023-10-06T01:47:16.388Z",
+        "updated_at": "2023-10-05T13:17:00.040Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "11ea61d2-559d-4495-bdae-262df093bf54"
+      },
+      {
+        "id": "ecd4d17b-c18c-4d42-a97d-72da8d7bc7ea",
+        "quote_amount": 94651,
+        "interest_rate": 70093,
+        "loan_term": 29200,
+        "quote_status": "Expired",
+        "created_at": "2023-10-05T15:05:25.928Z",
+        "updated_at": "2023-10-05T14:07:26.623Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "11ea61d2-559d-4495-bdae-262df093bf54"
+      },
+      {
+        "id": "8acc9395-4768-48c1-a132-a7f087ac2c77",
+        "quote_amount": 17191,
+        "interest_rate": 59884,
+        "loan_term": 66731,
+        "quote_status": "Reviewed",
+        "created_at": "2023-10-05T05:52:48.570Z",
+        "updated_at": "2023-10-05T05:27:10.195Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "800c0d84-de1c-4d8a-9f53-72b54d0ad1f6"
+      }
+    ],
+    "application": [
+      {
+        "id": "34d39e7f-8602-4689-ae65-80d4a7af60de",
+        "application_status": "Submitted",
+        "created_at": "2023-10-06T02:25:22.177Z",
+        "updated_at": "2023-10-05T14:17:12.024Z",
+        "loan_id": "11ea61d2-559d-4495-bdae-262df093bf54",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24246d65-0789-4bf0-8523-86f7a140ad97",
+        "application_status": "Under Review",
+        "created_at": "2023-10-05T18:25:01.182Z",
+        "updated_at": "2023-10-06T00:34:30.054Z",
+        "loan_id": "679d57c9-6932-4204-8acb-cb7c66fb9ccc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2397c050-1aa9-42ea-a0f2-7310575001a5",
+        "application_status": "Approved",
+        "created_at": "2023-10-05T13:00:20.307Z",
+        "updated_at": "2023-10-05T07:39:59.283Z",
+        "loan_id": "33ac2211-39cb-44e8-a73f-56357717abb1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7188abdb-7e8a-4843-b6c0-0e8ceb766897",
+        "application_status": "Rejected",
+        "created_at": "2023-10-05T15:47:48.817Z",
+        "updated_at": "2023-10-05T12:57:12.902Z",
+        "loan_id": "33ac2211-39cb-44e8-a73f-56357717abb1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c4d447a-f766-4f69-8810-19edc9b11009",
+        "application_status": "Finalized",
+        "created_at": "2023-10-06T04:04:39.081Z",
+        "updated_at": "2023-10-05T08:51:38.259Z",
+        "loan_id": "9dd6507f-5a7e-4c68-a234-cc44caff5144",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3a8bf6ee-7717-49f4-9c6e-8f707b517480",
+        "email": "Christiana_Borer@roq.tech",
+        "firstName": "Lorna",
+        "lastName": "Walker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73540818",
+        "tenantId": null
+      },
+      {
+        "reference": "42934945-b39a-4b12-bf2c-9f1c31546148",
+        "email": "Johan_Flatley65@roq.tech",
+        "firstName": "Earnest",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29301699",
+        "tenantId": null
+      },
+      {
+        "reference": "34dd8561-f736-49f5-b5a3-ffce09c1ba4d",
+        "email": "Armando79@roq.tech",
+        "firstName": "Saul",
+        "lastName": "Wilkinson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/876.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "03105e69-7ce0-42fd-ba14-a5d3665afcfc",
+        "email": "Dagmar_Gutkowski@roq.tech",
+        "firstName": "Alexandria",
+        "lastName": "Zboncak",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40116917",
+        "tenantId": null
+      },
+      {
+        "reference": "140b7241-e3ea-4d1c-90e9-bc183deea473",
+        "email": "Murphy.Ullrich@roq.tech",
+        "firstName": "Kyla",
+        "lastName": "Goodwin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1113.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "property": [
+      {
+        "id": "3e969edb-533d-46f2-b821-fbe20cdceb28",
+        "address": "123 Main St",
+        "property_value": 29175,
+        "property_type": "House",
+        "property_status": "For Sale",
+        "created_at": "2023-10-05T22:02:03.200Z",
+        "updated_at": "2023-10-05T21:40:56.315Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "08557208-4843-435a-8517-661f7c11d8fe",
+        "address": "456 Elm St",
+        "property_value": 35894,
+        "property_type": "Apartment",
+        "property_status": "For Rent",
+        "created_at": "2023-10-06T01:43:00.414Z",
+        "updated_at": "2023-10-06T04:34:54.644Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "55b8891b-8db0-4605-9a14-a5f791446698",
+        "address": "789 Oak St",
+        "property_value": 24857,
+        "property_type": "Condo",
+        "property_status": "Under Contract",
+        "created_at": "2023-10-06T02:19:23.689Z",
+        "updated_at": "2023-10-05T23:50:48.926Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "dfa82f52-8935-40e7-9504-dcd5fade271e",
+        "address": "321 Pine St",
+        "property_value": 98885,
+        "property_type": "Townhouse",
+        "property_status": "Sold",
+        "created_at": "2023-10-06T03:00:42.384Z",
+        "updated_at": "2023-10-05T06:54:39.835Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "136353d2-14c7-4867-8242-207036513ef4",
+        "address": "654 Maple St",
+        "property_value": 87307,
+        "property_type": "Duplex",
+        "property_status": "Vacant",
+        "created_at": "2023-10-05T22:24:45.386Z",
+        "updated_at": "2023-10-06T00:28:56.827Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "loan": [
+      {
+        "id": "53d5f9d0-2223-4e9f-a83a-9679cb8d1089",
+        "loan_amount": 21274,
+        "interest_rate": 22223,
+        "loan_term": 65970,
+        "loan_status": "Pending",
+        "created_at": "2023-10-05T10:56:12.624Z",
+        "updated_at": "2023-10-05T07:54:29.023Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "08557208-4843-435a-8517-661f7c11d8fe"
+      },
+      {
+        "id": "abc77610-d653-4aec-826a-1f51971cc1d4",
+        "loan_amount": 60022,
+        "interest_rate": 60216,
+        "loan_term": 11964,
+        "loan_status": "Approved",
+        "created_at": "2023-10-05T23:54:04.215Z",
+        "updated_at": "2023-10-05T18:59:07.019Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "dfa82f52-8935-40e7-9504-dcd5fade271e"
+      },
+      {
+        "id": "afb5978d-9a86-4bd8-84e2-6877a2e19879",
+        "loan_amount": 41819,
+        "interest_rate": 31033,
+        "loan_term": 11285,
+        "loan_status": "Rejected",
+        "created_at": "2023-10-05T12:01:19.898Z",
+        "updated_at": "2023-10-05T22:52:55.588Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "3e969edb-533d-46f2-b821-fbe20cdceb28"
+      },
+      {
+        "id": "7f526818-b358-4345-9244-8d44de3dafd9",
+        "loan_amount": 52021,
+        "interest_rate": 30631,
+        "loan_term": 7935,
+        "loan_status": "In Progress",
+        "created_at": "2023-10-05T09:21:37.572Z",
+        "updated_at": "2023-10-06T01:15:37.826Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "dfa82f52-8935-40e7-9504-dcd5fade271e"
+      },
+      {
+        "id": "a3fbf229-118d-4738-9850-b4b595b61dc0",
+        "loan_amount": 41698,
+        "interest_rate": 62673,
+        "loan_term": 807,
+        "loan_status": "Closed",
+        "created_at": "2023-10-05T16:19:06.297Z",
+        "updated_at": "2023-10-05T06:18:23.845Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "3e969edb-533d-46f2-b821-fbe20cdceb28"
+      }
+    ],
+    "quote": [
+      {
+        "id": "ca6d8ddb-0095-434f-8b04-4c1b0233b9e1",
+        "quote_amount": 10170,
+        "interest_rate": 98931,
+        "loan_term": 49551,
+        "quote_status": "Pending",
+        "created_at": "2023-10-05T07:06:00.971Z",
+        "updated_at": "2023-10-06T03:15:00.536Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "afb5978d-9a86-4bd8-84e2-6877a2e19879"
+      },
+      {
+        "id": "b2c844f0-c5ed-4e9d-a4a7-edd83a0b0c2e",
+        "quote_amount": 73800,
+        "interest_rate": 20657,
+        "loan_term": 78659,
+        "quote_status": "Accepted",
+        "created_at": "2023-10-06T00:25:52.092Z",
+        "updated_at": "2023-10-05T16:11:50.271Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "53d5f9d0-2223-4e9f-a83a-9679cb8d1089"
+      },
+      {
+        "id": "d2239f33-f88c-402f-9fcb-83ae20da9c79",
+        "quote_amount": 31371,
+        "interest_rate": 21647,
+        "loan_term": 12525,
+        "quote_status": "Declined",
+        "created_at": "2023-10-06T02:40:20.893Z",
+        "updated_at": "2023-10-05T21:21:08.037Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "afb5978d-9a86-4bd8-84e2-6877a2e19879"
+      },
+      {
+        "id": "69ff230d-cf5a-4cae-8978-2fa8a0171555",
+        "quote_amount": 33189,
+        "interest_rate": 58471,
+        "loan_term": 11088,
+        "quote_status": "Expired",
+        "created_at": "2023-10-05T06:31:26.607Z",
+        "updated_at": "2023-10-05T22:46:45.819Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "abc77610-d653-4aec-826a-1f51971cc1d4"
+      },
+      {
+        "id": "a91476b0-ccf3-4b31-9fbf-e89af940bb91",
+        "quote_amount": 53627,
+        "interest_rate": 7005,
+        "loan_term": 35292,
+        "quote_status": "Reviewed",
+        "created_at": "2023-10-05T09:00:32.377Z",
+        "updated_at": "2023-10-05T04:52:40.166Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "a3fbf229-118d-4738-9850-b4b595b61dc0"
+      }
+    ],
+    "application": [
+      {
+        "id": "bb2924af-7d80-4a25-85a3-76327f2320fa",
+        "application_status": "Submitted",
+        "created_at": "2023-10-05T07:42:54.547Z",
+        "updated_at": "2023-10-05T06:44:05.500Z",
+        "loan_id": "7f526818-b358-4345-9244-8d44de3dafd9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5bb3bc9f-3db4-43cc-ad07-7fe8539e9edd",
+        "application_status": "Under Review",
+        "created_at": "2023-10-06T01:42:30.163Z",
+        "updated_at": "2023-10-05T23:55:45.371Z",
+        "loan_id": "7f526818-b358-4345-9244-8d44de3dafd9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a61b7096-7450-4b1e-84e2-c12c66c77aa7",
+        "application_status": "Approved",
+        "created_at": "2023-10-05T15:18:44.378Z",
+        "updated_at": "2023-10-05T11:51:14.439Z",
+        "loan_id": "abc77610-d653-4aec-826a-1f51971cc1d4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d280cec0-6726-4487-a71f-3b40b9189d50",
+        "application_status": "Rejected",
+        "created_at": "2023-10-05T21:06:31.227Z",
+        "updated_at": "2023-10-05T22:11:09.494Z",
+        "loan_id": "7f526818-b358-4345-9244-8d44de3dafd9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6af58008-a855-40cc-8bf9-2ba41d7703e7",
+        "application_status": "Pending",
+        "created_at": "2023-10-05T06:37:47.318Z",
+        "updated_at": "2023-10-05T21:25:27.341Z",
+        "loan_id": "abc77610-d653-4aec-826a-1f51971cc1d4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d6856f1b-ade5-4770-a445-1c21aceb0fff",
+        "email": "Aurore3@roq.tech",
+        "firstName": "Jadyn",
+        "lastName": "Treutel-Jerde",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1045.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7c19e579-dba9-47e5-b8de-038ea011fa1d",
+        "email": "Ottis.Harris30@roq.tech",
+        "firstName": "Harrison",
+        "lastName": "Windler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49090766",
+        "tenantId": null
+      },
+      {
+        "reference": "2f21277e-02ec-43a2-90f0-2557ad635501",
+        "email": "Porter.Rowe39@roq.tech",
+        "firstName": "Dennis",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5324139",
+        "tenantId": null
+      },
+      {
+        "reference": "5c791f16-56fe-4aec-8f06-b2b2402626fc",
+        "email": "Zane_Christiansen95@roq.tech",
+        "firstName": "Lea",
+        "lastName": "D'Amore-Greenfelder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82871969",
+        "tenantId": null
+      },
+      {
+        "reference": "bf95852a-e5a2-4423-b018-bd4351ee0191",
+        "email": "Muhammad.Moore@roq.tech",
+        "firstName": "Flo",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69033259",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "property": [
+      {
+        "id": "91d897e7-684e-4eb0-be72-50590d184fac",
+        "address": "123 Main St",
+        "property_value": 73800,
+        "property_type": "Single Family Home",
+        "property_status": "For Sale",
+        "created_at": "2023-10-05T22:06:09.793Z",
+        "updated_at": "2023-10-05T09:44:32.532Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "9b1e6c30-bf23-46d2-9c31-7334289349b7",
+        "address": "456 Elm St",
+        "property_value": 5980,
+        "property_type": "Apartment",
+        "property_status": "For Rent",
+        "created_at": "2023-10-05T10:17:52.292Z",
+        "updated_at": "2023-10-05T07:01:09.471Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "9c47cff3-7c21-4a17-98e4-7d3b8d64b180",
+        "address": "789 Oak St",
+        "property_value": 82241,
+        "property_type": "Condo",
+        "property_status": "Under Contract",
+        "created_at": "2023-10-05T07:37:13.577Z",
+        "updated_at": "2023-10-05T15:08:33.579Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "fb9af691-8569-464f-8cbc-b6e6c658775f",
+        "address": "321 Maple Ave",
+        "property_value": 7341,
+        "property_type": "Townhouse",
+        "property_status": "Sold",
+        "created_at": "2023-10-05T15:22:08.768Z",
+        "updated_at": "2023-10-05T22:21:33.021Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "25e74993-41c1-420e-9f9a-683a4556ac03",
+        "address": "654 Pine Rd",
+        "property_value": 55092,
+        "property_type": "Duplex",
+        "property_status": "Vacant",
+        "created_at": "2023-10-05T09:50:54.720Z",
+        "updated_at": "2023-10-05T22:47:25.802Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "loan": [
+      {
+        "id": "2e774a03-0ca2-4e3f-b9ae-7c74040f8d90",
+        "loan_amount": 29015,
+        "interest_rate": 82098,
+        "loan_term": 79177,
+        "loan_status": "Approved",
+        "created_at": "2023-10-05T15:20:46.022Z",
+        "updated_at": "2023-10-05T18:08:16.460Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "fb9af691-8569-464f-8cbc-b6e6c658775f"
+      },
+      {
+        "id": "a23a1bb0-85d8-4737-8d7e-fd7704661fc7",
+        "loan_amount": 29481,
+        "interest_rate": 23506,
+        "loan_term": 30908,
+        "loan_status": "Pending",
+        "created_at": "2023-10-05T16:35:12.421Z",
+        "updated_at": "2023-10-05T11:45:15.575Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "9b1e6c30-bf23-46d2-9c31-7334289349b7"
+      },
+      {
+        "id": "6ff41b43-8e22-4a9a-98ab-9426e5bdb620",
+        "loan_amount": 1647,
+        "interest_rate": 17383,
+        "loan_term": 22070,
+        "loan_status": "Rejected",
+        "created_at": "2023-10-05T20:44:10.682Z",
+        "updated_at": "2023-10-06T00:00:54.087Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "91d897e7-684e-4eb0-be72-50590d184fac"
+      },
+      {
+        "id": "6975e51c-32bd-45c3-8dac-afd017bdc61c",
+        "loan_amount": 5719,
+        "interest_rate": 70430,
+        "loan_term": 57501,
+        "loan_status": "Processing",
+        "created_at": "2023-10-05T08:12:37.826Z",
+        "updated_at": "2023-10-05T19:20:14.132Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "9b1e6c30-bf23-46d2-9c31-7334289349b7"
+      },
+      {
+        "id": "655b485c-b646-4731-a093-5a1b0e020f89",
+        "loan_amount": 73450,
+        "interest_rate": 93307,
+        "loan_term": 77145,
+        "loan_status": "Closed",
+        "created_at": "2023-10-05T11:28:25.501Z",
+        "updated_at": "2023-10-05T23:33:32.180Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "25e74993-41c1-420e-9f9a-683a4556ac03"
+      }
+    ],
+    "quote": [
+      {
+        "id": "0207433e-56e9-44f7-a740-ddbbecd2dc4e",
+        "quote_amount": 87643,
+        "interest_rate": 71548,
+        "loan_term": 83923,
+        "quote_status": "Pending",
+        "created_at": "2023-10-05T12:03:10.028Z",
+        "updated_at": "2023-10-05T13:59:19.632Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "a23a1bb0-85d8-4737-8d7e-fd7704661fc7"
+      },
+      {
+        "id": "6b5afd98-d87e-4e78-917c-628d1ac7ef03",
+        "quote_amount": 20515,
+        "interest_rate": 85526,
+        "loan_term": 65387,
+        "quote_status": "Accepted",
+        "created_at": "2023-10-05T15:07:28.161Z",
+        "updated_at": "2023-10-05T21:16:06.415Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "6975e51c-32bd-45c3-8dac-afd017bdc61c"
+      },
+      {
+        "id": "78e8f149-0f69-4fc1-b278-22e95c056cc0",
+        "quote_amount": 21115,
+        "interest_rate": 69748,
+        "loan_term": 58010,
+        "quote_status": "Rejected",
+        "created_at": "2023-10-06T03:45:09.740Z",
+        "updated_at": "2023-10-05T20:21:20.878Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "6ff41b43-8e22-4a9a-98ab-9426e5bdb620"
+      },
+      {
+        "id": "bccc6999-5241-471b-b3a4-c62792e93f51",
+        "quote_amount": 2724,
+        "interest_rate": 32029,
+        "loan_term": 42138,
+        "quote_status": "Expired",
+        "created_at": "2023-10-05T20:35:13.635Z",
+        "updated_at": "2023-10-05T19:01:50.300Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "2e774a03-0ca2-4e3f-b9ae-7c74040f8d90"
+      },
+      {
+        "id": "406de311-96c5-49dc-b33b-349af2985f11",
+        "quote_amount": 48170,
+        "interest_rate": 90826,
+        "loan_term": 49592,
+        "quote_status": "Reviewed",
+        "created_at": "2023-10-05T17:06:50.559Z",
+        "updated_at": "2023-10-05T23:33:16.266Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "6ff41b43-8e22-4a9a-98ab-9426e5bdb620"
+      }
+    ],
+    "application": [
+      {
+        "id": "ecc85936-f701-4efa-a53c-e281489f926e",
+        "application_status": "Submitted",
+        "created_at": "2023-10-05T13:03:21.949Z",
+        "updated_at": "2023-10-06T02:26:11.026Z",
+        "loan_id": "a23a1bb0-85d8-4737-8d7e-fd7704661fc7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "546e1b86-10d1-47b4-a135-91b64b23db52",
+        "application_status": "In Progress",
+        "created_at": "2023-10-06T02:06:56.860Z",
+        "updated_at": "2023-10-05T06:19:44.141Z",
+        "loan_id": "a23a1bb0-85d8-4737-8d7e-fd7704661fc7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62c41519-31cd-4a4d-a3fc-b2d62d8592d8",
+        "application_status": "Approved",
+        "created_at": "2023-10-05T13:46:37.326Z",
+        "updated_at": "2023-10-05T23:30:45.810Z",
+        "loan_id": "2e774a03-0ca2-4e3f-b9ae-7c74040f8d90",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fed7d513-52d1-4d89-a160-9278180394f5",
+        "application_status": "Rejected",
+        "created_at": "2023-10-05T20:33:02.420Z",
+        "updated_at": "2023-10-06T02:43:06.909Z",
+        "loan_id": "2e774a03-0ca2-4e3f-b9ae-7c74040f8d90",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35b685e2-a9d9-4cb6-b413-50ae3b6817f0",
+        "application_status": "Closed",
+        "created_at": "2023-10-05T05:29:50.212Z",
+        "updated_at": "2023-10-05T10:59:10.394Z",
+        "loan_id": "6975e51c-32bd-45c3-8dac-afd017bdc61c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f6d5c77c-5119-47f0-8e23-94691aa3c008",
+        "email": "Lucious99@roq.tech",
+        "firstName": "Maude",
+        "lastName": "Jakubowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9110529",
+        "tenantId": null
+      },
+      {
+        "reference": "5b8b561b-5238-4ca7-b111-5f56666a291c",
+        "email": "Brandi4@roq.tech",
+        "firstName": "Alice",
+        "lastName": "Dicki",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1224.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6aeca68f-1ef2-4040-b795-26fdb5d626ab",
+        "email": "Dawson42@roq.tech",
+        "firstName": "Jed",
+        "lastName": "Mante",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65201070",
+        "tenantId": null
+      },
+      {
+        "reference": "4bdd5793-881b-4fda-8c28-cfb71fd0aab9",
+        "email": "Alisha_Schmidt82@roq.tech",
+        "firstName": "Alexandrea",
+        "lastName": "Braun",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/0.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "435f2871-6634-474e-9840-75f9a7739e56",
+        "email": "Kieran_Koelpin@roq.tech",
+        "firstName": "Ansel",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1248.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "property": [
+      {
+        "id": "adbf527c-a2fb-4d68-b546-1ba7d0ab63be",
+        "address": "123 Main St",
+        "property_value": 37758,
+        "property_type": "Single Family Home",
+        "property_status": "For Sale",
+        "created_at": "2023-10-05T16:34:37.657Z",
+        "updated_at": "2023-10-05T18:33:38.166Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "6a6a4f31-a02a-4663-955b-40d2175e2188",
+        "address": "456 Elm St",
+        "property_value": 33800,
+        "property_type": "Apartment",
+        "property_status": "For Rent",
+        "created_at": "2023-10-05T07:51:46.620Z",
+        "updated_at": "2023-10-06T02:11:42.644Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "e2096155-e963-4900-a2da-ee4b82d335b9",
+        "address": "789 Oak St",
+        "property_value": 34940,
+        "property_type": "Condo",
+        "property_status": "Under Contract",
+        "created_at": "2023-10-05T12:02:37.760Z",
+        "updated_at": "2023-10-06T00:12:43.989Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "cbd34c28-ae94-427d-ae63-8d7c28e2565a",
+        "address": "321 Maple Ave",
+        "property_value": 8169,
+        "property_type": "Townhouse",
+        "property_status": "Sold",
+        "created_at": "2023-10-05T06:44:15.089Z",
+        "updated_at": "2023-10-06T00:08:39.617Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "7be85178-ab74-488c-99f2-7e9ea9476aa0",
+        "address": "654 Pine St",
+        "property_value": 47949,
+        "property_type": "Duplex",
+        "property_status": "Vacant",
+        "created_at": "2023-10-05T07:50:21.614Z",
+        "updated_at": "2023-10-05T06:14:51.864Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "loan": [
+      {
+        "id": "7ccf40c3-f7fa-47ba-8304-dc2506a0a5d6",
+        "loan_amount": 563,
+        "interest_rate": 65563,
+        "loan_term": 85047,
+        "loan_status": "Approved",
+        "created_at": "2023-10-05T20:33:40.864Z",
+        "updated_at": "2023-10-05T05:30:37.782Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "cbd34c28-ae94-427d-ae63-8d7c28e2565a"
+      },
+      {
+        "id": "f9122d29-1f85-4284-b8d9-2cbd5c50c18b",
+        "loan_amount": 16887,
+        "interest_rate": 98495,
+        "loan_term": 12660,
+        "loan_status": "Pending",
+        "created_at": "2023-10-06T00:49:27.849Z",
+        "updated_at": "2023-10-05T11:25:16.456Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "cbd34c28-ae94-427d-ae63-8d7c28e2565a"
+      },
+      {
+        "id": "38fea2f6-9c24-4043-b194-795459007601",
+        "loan_amount": 54370,
+        "interest_rate": 24104,
+        "loan_term": 63983,
+        "loan_status": "Rejected",
+        "created_at": "2023-10-05T21:03:34.419Z",
+        "updated_at": "2023-10-05T12:23:01.547Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "e2096155-e963-4900-a2da-ee4b82d335b9"
+      },
+      {
+        "id": "079962f7-8147-4a62-b8c3-8bc1b431f71e",
+        "loan_amount": 41465,
+        "interest_rate": 9955,
+        "loan_term": 54627,
+        "loan_status": "Processing",
+        "created_at": "2023-10-06T04:09:22.851Z",
+        "updated_at": "2023-10-06T02:52:22.268Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "e2096155-e963-4900-a2da-ee4b82d335b9"
+      },
+      {
+        "id": "b8246adf-4d8d-4485-8f75-c3ea599e4fb2",
+        "loan_amount": 34835,
+        "interest_rate": 64987,
+        "loan_term": 67184,
+        "loan_status": "Closed",
+        "created_at": "2023-10-05T17:42:28.738Z",
+        "updated_at": "2023-10-05T13:56:46.501Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "cbd34c28-ae94-427d-ae63-8d7c28e2565a"
+      }
+    ],
+    "quote": [
+      {
+        "id": "54d6d52c-2c1e-441e-952b-47a1e79d0d03",
+        "quote_amount": 92137,
+        "interest_rate": 29172,
+        "loan_term": 88617,
+        "quote_status": "New",
+        "created_at": "2023-10-05T19:10:11.412Z",
+        "updated_at": "2023-10-06T00:10:04.282Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "b8246adf-4d8d-4485-8f75-c3ea599e4fb2"
+      },
+      {
+        "id": "702cc677-fba3-4a5d-8ca7-264a7ff5dca4",
+        "quote_amount": 25421,
+        "interest_rate": 7068,
+        "loan_term": 80532,
+        "quote_status": "Accepted",
+        "created_at": "2023-10-05T18:36:56.128Z",
+        "updated_at": "2023-10-05T18:24:48.020Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "38fea2f6-9c24-4043-b194-795459007601"
+      },
+      {
+        "id": "0c8570ad-8eb4-4f7f-a1aa-5da195861c2f",
+        "quote_amount": 77498,
+        "interest_rate": 33795,
+        "loan_term": 37520,
+        "quote_status": "Rejected",
+        "created_at": "2023-10-05T20:06:14.361Z",
+        "updated_at": "2023-10-06T04:14:22.060Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "b8246adf-4d8d-4485-8f75-c3ea599e4fb2"
+      },
+      {
+        "id": "e9f8069d-a5fa-42e1-9829-d9f5b10a70b7",
+        "quote_amount": 20637,
+        "interest_rate": 85244,
+        "loan_term": 21339,
+        "quote_status": "Expired",
+        "created_at": "2023-10-05T09:58:37.339Z",
+        "updated_at": "2023-10-05T18:55:21.822Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "f9122d29-1f85-4284-b8d9-2cbd5c50c18b"
+      },
+      {
+        "id": "3b6a8059-4b16-4bb8-958c-fdce86bec6f1",
+        "quote_amount": 15862,
+        "interest_rate": 23358,
+        "loan_term": 64910,
+        "quote_status": "Pending",
+        "created_at": "2023-10-06T03:11:57.360Z",
+        "updated_at": "2023-10-05T18:47:52.852Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "079962f7-8147-4a62-b8c3-8bc1b431f71e"
+      }
+    ],
+    "application": [
+      {
+        "id": "3365c082-2e74-4734-94ec-a49239b60191",
+        "application_status": "Submitted",
+        "created_at": "2023-10-05T11:33:35.086Z",
+        "updated_at": "2023-10-05T19:49:04.744Z",
+        "loan_id": "7ccf40c3-f7fa-47ba-8304-dc2506a0a5d6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "851a5240-b870-426b-8bf6-cfd28d4220db",
+        "application_status": "In Progress",
+        "created_at": "2023-10-06T02:12:14.903Z",
+        "updated_at": "2023-10-06T01:55:05.153Z",
+        "loan_id": "079962f7-8147-4a62-b8c3-8bc1b431f71e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "716f3456-949a-4d17-acc7-0eed8c31ce4d",
+        "application_status": "Approved",
+        "created_at": "2023-10-05T08:51:25.153Z",
+        "updated_at": "2023-10-05T18:01:45.313Z",
+        "loan_id": "b8246adf-4d8d-4485-8f75-c3ea599e4fb2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "873d6543-dc6d-4e8e-99a7-33569262f3e9",
+        "application_status": "Rejected",
+        "created_at": "2023-10-06T03:47:09.488Z",
+        "updated_at": "2023-10-05T15:45:59.028Z",
+        "loan_id": "f9122d29-1f85-4284-b8d9-2cbd5c50c18b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bdbaaca9-8760-4e46-859e-fcad260faa2c",
+        "application_status": "Completed",
+        "created_at": "2023-10-05T21:23:14.522Z",
+        "updated_at": "2023-10-05T19:43:08.874Z",
+        "loan_id": "f9122d29-1f85-4284-b8d9-2cbd5c50c18b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1674246e-ded6-448e-af6d-e23d312f89d6",
+        "email": "Velva.Kirlin-Feest74@roq.tech",
+        "firstName": "Jalyn",
+        "lastName": "Kohler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24224261",
+        "tenantId": null
+      },
+      {
+        "reference": "baf6daa3-fa10-4dca-bc17-06517c9fe265",
+        "email": "Viviane_Considine8@roq.tech",
+        "firstName": "Anibal",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/316.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1bb59572-c565-42d9-ba27-300fbd28c51e",
+        "email": "Sasha.Legros55@roq.tech",
+        "firstName": "Neal",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/443.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ebf32985-40d6-4c7e-8139-e07c31c46fdc",
+        "email": "Charlie20@roq.tech",
+        "firstName": "Maxwell",
+        "lastName": "Lehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62217354",
+        "tenantId": null
+      },
+      {
+        "reference": "b910b95c-6b26-4c8d-a120-fe1ccbaec506",
+        "email": "Isom_Huels24@roq.tech",
+        "firstName": "Wilhelmine",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/667.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "property": [
+      {
+        "id": "f72a8dc0-ccfb-45a0-aa6e-52ae49675954",
+        "address": "123 Main St",
+        "property_value": 43876,
+        "property_type": "Single Family Home",
+        "property_status": "For Sale",
+        "created_at": "2023-10-06T03:19:43.590Z",
+        "updated_at": "2023-10-06T01:33:06.058Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "c8f30182-fbd4-4082-ad71-49efab07d1bd",
+        "address": "456 Elm St",
+        "property_value": 91531,
+        "property_type": "Apartment",
+        "property_status": "For Rent",
+        "created_at": "2023-10-06T04:00:59.197Z",
+        "updated_at": "2023-10-06T00:03:47.701Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "679325f2-2d6a-49a1-b488-7cf679211092",
+        "address": "789 Oak St",
+        "property_value": 58892,
+        "property_type": "Condo",
+        "property_status": "Under Contract",
+        "created_at": "2023-10-06T03:30:45.342Z",
+        "updated_at": "2023-10-05T18:25:36.274Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "b2d0d500-1140-4bc7-94a6-b306d5a9e50b",
+        "address": "321 Pine St",
+        "property_value": 26134,
+        "property_type": "Townhouse",
+        "property_status": "Sold",
+        "created_at": "2023-10-06T02:14:54.090Z",
+        "updated_at": "2023-10-06T01:38:20.285Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "1ff4d291-4e9d-41ff-8cea-0811b4382d5b",
+        "address": "654 Maple St",
+        "property_value": 75959,
+        "property_type": "Duplex",
+        "property_status": "Vacant",
+        "created_at": "2023-10-05T07:37:55.277Z",
+        "updated_at": "2023-10-05T06:49:13.243Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "loan": [
+      {
+        "id": "e02cbe69-0f29-44bb-b949-fcd1bb36e497",
+        "loan_amount": 82336,
+        "interest_rate": 23901,
+        "loan_term": 49679,
+        "loan_status": "Pending",
+        "created_at": "2023-10-05T23:24:19.967Z",
+        "updated_at": "2023-10-05T19:54:13.004Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "b2d0d500-1140-4bc7-94a6-b306d5a9e50b"
+      },
+      {
+        "id": "37e38f28-979a-4fe3-a773-4eca1ed084de",
+        "loan_amount": 51289,
+        "interest_rate": 19326,
+        "loan_term": 17053,
+        "loan_status": "Approved",
+        "created_at": "2023-10-05T06:02:55.999Z",
+        "updated_at": "2023-10-05T20:28:46.517Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "b2d0d500-1140-4bc7-94a6-b306d5a9e50b"
+      },
+      {
+        "id": "bdd38328-f927-4044-bd43-b8214611b6d4",
+        "loan_amount": 94302,
+        "interest_rate": 91450,
+        "loan_term": 58982,
+        "loan_status": "Rejected",
+        "created_at": "2023-10-05T18:03:01.790Z",
+        "updated_at": "2023-10-05T20:57:13.685Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "1ff4d291-4e9d-41ff-8cea-0811b4382d5b"
+      },
+      {
+        "id": "52148bd3-1a2e-46ad-8b36-13351bd03124",
+        "loan_amount": 96732,
+        "interest_rate": 73203,
+        "loan_term": 46695,
+        "loan_status": "Processing",
+        "created_at": "2023-10-06T00:08:15.703Z",
+        "updated_at": "2023-10-05T21:22:15.014Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "679325f2-2d6a-49a1-b488-7cf679211092"
+      },
+      {
+        "id": "95489c67-e1ce-46ab-9a05-783b714defe9",
+        "loan_amount": 14093,
+        "interest_rate": 72494,
+        "loan_term": 63207,
+        "loan_status": "Funded",
+        "created_at": "2023-10-05T13:51:57.185Z",
+        "updated_at": "2023-10-05T06:16:38.856Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "b2d0d500-1140-4bc7-94a6-b306d5a9e50b"
+      }
+    ],
+    "quote": [
+      {
+        "id": "b4375697-1da2-4b98-adab-993490edec5a",
+        "quote_amount": 4199,
+        "interest_rate": 68038,
+        "loan_term": 94753,
+        "quote_status": "Pending",
+        "created_at": "2023-10-05T22:53:23.099Z",
+        "updated_at": "2023-10-05T08:27:09.969Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "e02cbe69-0f29-44bb-b949-fcd1bb36e497"
+      },
+      {
+        "id": "ec8b10e4-7659-452d-acdf-5d932830e025",
+        "quote_amount": 48507,
+        "interest_rate": 65483,
+        "loan_term": 73082,
+        "quote_status": "Accepted",
+        "created_at": "2023-10-05T18:31:15.095Z",
+        "updated_at": "2023-10-05T16:55:35.665Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "95489c67-e1ce-46ab-9a05-783b714defe9"
+      },
+      {
+        "id": "7b61d59f-c8a6-4b91-b677-a4f6f70e745d",
+        "quote_amount": 87299,
+        "interest_rate": 73573,
+        "loan_term": 73670,
+        "quote_status": "Expired",
+        "created_at": "2023-10-06T03:28:30.940Z",
+        "updated_at": "2023-10-06T04:39:13.645Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "e02cbe69-0f29-44bb-b949-fcd1bb36e497"
+      },
+      {
+        "id": "4cee15ab-b293-442e-8535-d759fe8c1a16",
+        "quote_amount": 74961,
+        "interest_rate": 81064,
+        "loan_term": 69258,
+        "quote_status": "Declined",
+        "created_at": "2023-10-05T10:11:37.814Z",
+        "updated_at": "2023-10-06T01:15:18.073Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "95489c67-e1ce-46ab-9a05-783b714defe9"
+      },
+      {
+        "id": "248cd580-29c7-4382-9f8d-234dcdedff12",
+        "quote_amount": 59478,
+        "interest_rate": 32693,
+        "loan_term": 61469,
+        "quote_status": "Revised",
+        "created_at": "2023-10-05T15:59:42.523Z",
+        "updated_at": "2023-10-05T21:12:18.159Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "bdd38328-f927-4044-bd43-b8214611b6d4"
+      }
+    ],
+    "application": [
+      {
+        "id": "e9fe71ab-6d4c-4a03-aa7c-77922cc4f61a",
+        "application_status": "Submitted",
+        "created_at": "2023-10-05T11:23:55.283Z",
+        "updated_at": "2023-10-06T03:03:14.777Z",
+        "loan_id": "37e38f28-979a-4fe3-a773-4eca1ed084de",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4f0ba84-654e-415f-a42f-1fc9bed836d3",
+        "application_status": "In Review",
+        "created_at": "2023-10-05T06:49:52.922Z",
+        "updated_at": "2023-10-05T18:17:23.431Z",
+        "loan_id": "bdd38328-f927-4044-bd43-b8214611b6d4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2946462-54a2-4c37-8982-a7ea0487d321",
+        "application_status": "Approved",
+        "created_at": "2023-10-05T07:05:44.530Z",
+        "updated_at": "2023-10-05T06:52:02.873Z",
+        "loan_id": "bdd38328-f927-4044-bd43-b8214611b6d4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0919c99e-7e32-4caf-b583-df9954a408b6",
+        "application_status": "Rejected",
+        "created_at": "2023-10-05T22:34:38.357Z",
+        "updated_at": "2023-10-05T22:02:25.068Z",
+        "loan_id": "52148bd3-1a2e-46ad-8b36-13351bd03124",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c22ee58a-b784-4b4b-8a07-969d95c18eee",
+        "application_status": "Pending",
+        "created_at": "2023-10-05T11:52:30.813Z",
+        "updated_at": "2023-10-05T15:19:45.785Z",
+        "loan_id": "37e38f28-979a-4fe3-a773-4eca1ed084de",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a06cc0ea-007f-4a3f-82c0-649d83dc0314",
+        "email": "Sherman_Moore@roq.tech",
+        "firstName": "Jadyn",
+        "lastName": "Green",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11247757",
+        "tenantId": null
+      },
+      {
+        "reference": "87d33eed-4a1c-4dd2-a5b4-4e9321c3ed79",
+        "email": "Noemy.Romaguera66@roq.tech",
+        "firstName": "Betty",
+        "lastName": "Gibson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/418.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1bb50d41-f650-4586-a7d9-1151b42d1061",
+        "email": "Raul66@roq.tech",
+        "firstName": "Talon",
+        "lastName": "Buckridge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/246.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2c081c02-59cb-4e6b-9043-e11441e5cbcd",
+        "email": "Etha_Hauck@roq.tech",
+        "firstName": "Stacey",
+        "lastName": "Bode",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48436548",
+        "tenantId": null
+      },
+      {
+        "reference": "c819fcf1-5517-44ad-a2c0-164d733e3512",
+        "email": "Juston.Balistreri61@roq.tech",
+        "firstName": "Jeromy",
+        "lastName": "Haag",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/831.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "property": [
+      {
+        "id": "459ca54a-de32-4d75-be76-eb6a78938446",
+        "address": "123 Main St",
+        "property_value": 25677,
+        "property_type": "House",
+        "property_status": "For Sale",
+        "created_at": "2023-10-05T11:08:22.713Z",
+        "updated_at": "2023-10-05T06:26:33.478Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "19c99aea-8c13-4967-b999-d25db240fbb9",
+        "address": "456 Elm St",
+        "property_value": 88803,
+        "property_type": "Apartment",
+        "property_status": "For Rent",
+        "created_at": "2023-10-05T21:42:53.435Z",
+        "updated_at": "2023-10-06T04:14:53.840Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "780cf145-3829-4c6c-a417-7961c7f5b163",
+        "address": "789 Oak St",
+        "property_value": 39453,
+        "property_type": "Condo",
+        "property_status": "Sold",
+        "created_at": "2023-10-05T15:08:58.122Z",
+        "updated_at": "2023-10-05T11:51:59.745Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "4fca8d60-aef6-4d0f-8441-b5738e088bad",
+        "address": "321 Pine St",
+        "property_value": 24395,
+        "property_type": "Townhouse",
+        "property_status": "Rented",
+        "created_at": "2023-10-05T11:00:20.041Z",
+        "updated_at": "2023-10-05T18:55:55.810Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "a2dd7bd7-4057-4883-a769-05ce0786f003",
+        "address": "654 Maple St",
+        "property_value": 34948,
+        "property_type": "Duplex",
+        "property_status": "Under Contract",
+        "created_at": "2023-10-05T08:33:30.010Z",
+        "updated_at": "2023-10-05T06:17:11.392Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "loan": [
+      {
+        "id": "d9591540-ee18-401c-90b7-bfeb951f3f0a",
+        "loan_amount": 9646,
+        "interest_rate": 63005,
+        "loan_term": 47792,
+        "loan_status": "Pending",
+        "created_at": "2023-10-05T16:48:06.792Z",
+        "updated_at": "2023-10-05T23:11:53.350Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "4fca8d60-aef6-4d0f-8441-b5738e088bad"
+      },
+      {
+        "id": "be4d2bd1-dcb6-4a43-92c0-bd215a072631",
+        "loan_amount": 55709,
+        "interest_rate": 70601,
+        "loan_term": 97395,
+        "loan_status": "Approved",
+        "created_at": "2023-10-05T08:14:04.168Z",
+        "updated_at": "2023-10-06T01:11:45.235Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "4fca8d60-aef6-4d0f-8441-b5738e088bad"
+      },
+      {
+        "id": "01c65abe-5824-457f-9e3f-43bdd788f567",
+        "loan_amount": 15599,
+        "interest_rate": 28802,
+        "loan_term": 2892,
+        "loan_status": "Rejected",
+        "created_at": "2023-10-05T19:16:48.429Z",
+        "updated_at": "2023-10-06T00:19:49.723Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "a2dd7bd7-4057-4883-a769-05ce0786f003"
+      },
+      {
+        "id": "53676cdd-f9c6-4e01-9cc9-ceb50affe455",
+        "loan_amount": 53862,
+        "interest_rate": 92358,
+        "loan_term": 97785,
+        "loan_status": "In Progress",
+        "created_at": "2023-10-05T10:42:00.562Z",
+        "updated_at": "2023-10-05T08:35:08.089Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "780cf145-3829-4c6c-a417-7961c7f5b163"
+      },
+      {
+        "id": "701757ba-6e3b-45f0-b2fa-3c03e86e66f9",
+        "loan_amount": 99890,
+        "interest_rate": 41386,
+        "loan_term": 99943,
+        "loan_status": "Closed",
+        "created_at": "2023-10-05T19:48:43.006Z",
+        "updated_at": "2023-10-05T08:35:43.456Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "a2dd7bd7-4057-4883-a769-05ce0786f003"
+      }
+    ],
+    "quote": [
+      {
+        "id": "3752745a-ce8c-4e7b-888b-32a698af3c15",
+        "quote_amount": 70204,
+        "interest_rate": 93740,
+        "loan_term": 73900,
+        "quote_status": "Pending",
+        "created_at": "2023-10-05T07:45:53.521Z",
+        "updated_at": "2023-10-05T23:00:37.137Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "701757ba-6e3b-45f0-b2fa-3c03e86e66f9"
+      },
+      {
+        "id": "45d2e57f-3508-4bee-8371-09ba7beffa59",
+        "quote_amount": 63,
+        "interest_rate": 59922,
+        "loan_term": 78030,
+        "quote_status": "Accepted",
+        "created_at": "2023-10-05T14:47:58.642Z",
+        "updated_at": "2023-10-05T08:46:00.837Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "701757ba-6e3b-45f0-b2fa-3c03e86e66f9"
+      },
+      {
+        "id": "30464772-5167-417d-bd42-decb8458ac4f",
+        "quote_amount": 28915,
+        "interest_rate": 11770,
+        "loan_term": 65646,
+        "quote_status": "Declined",
+        "created_at": "2023-10-06T03:18:24.649Z",
+        "updated_at": "2023-10-05T16:07:21.647Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "d9591540-ee18-401c-90b7-bfeb951f3f0a"
+      },
+      {
+        "id": "5cbf34b1-9376-460d-adfc-817fd50ef85f",
+        "quote_amount": 84412,
+        "interest_rate": 63682,
+        "loan_term": 74783,
+        "quote_status": "Expired",
+        "created_at": "2023-10-05T08:17:07.079Z",
+        "updated_at": "2023-10-05T10:25:15.539Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "01c65abe-5824-457f-9e3f-43bdd788f567"
+      },
+      {
+        "id": "67f8bb0e-2686-47ec-9e82-0caffaa374d1",
+        "quote_amount": 12949,
+        "interest_rate": 12679,
+        "loan_term": 29818,
+        "quote_status": "Revised",
+        "created_at": "2023-10-05T12:00:13.030Z",
+        "updated_at": "2023-10-05T08:19:26.669Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "01c65abe-5824-457f-9e3f-43bdd788f567"
+      }
+    ],
+    "application": [
+      {
+        "id": "634ae13e-6adc-4cdd-af14-2171eb2bee70",
+        "application_status": "Submitted",
+        "created_at": "2023-10-05T22:13:41.524Z",
+        "updated_at": "2023-10-06T01:29:25.277Z",
+        "loan_id": "53676cdd-f9c6-4e01-9cc9-ceb50affe455",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7205678d-072f-4445-bff4-81213ab0fb84",
+        "application_status": "In Review",
+        "created_at": "2023-10-05T12:57:23.440Z",
+        "updated_at": "2023-10-06T03:37:04.456Z",
+        "loan_id": "d9591540-ee18-401c-90b7-bfeb951f3f0a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc4eeb11-f08a-4b04-a5bd-9f40de36b254",
+        "application_status": "Approved",
+        "created_at": "2023-10-05T19:05:18.274Z",
+        "updated_at": "2023-10-05T10:47:24.538Z",
+        "loan_id": "701757ba-6e3b-45f0-b2fa-3c03e86e66f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab06c6fd-69e8-4c44-81c1-5ca2ef55c9e4",
+        "application_status": "Rejected",
+        "created_at": "2023-10-05T18:22:57.833Z",
+        "updated_at": "2023-10-05T16:04:10.337Z",
+        "loan_id": "be4d2bd1-dcb6-4a43-92c0-bd215a072631",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de595330-71e9-4a2a-a09c-d891f0e82c07",
+        "application_status": "Closed",
+        "created_at": "2023-10-05T20:18:23.164Z",
+        "updated_at": "2023-10-05T20:35:39.880Z",
+        "loan_id": "d9591540-ee18-401c-90b7-bfeb951f3f0a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c5fb8e64-91b9-424f-93f5-80c907ac99f5",
+        "email": "Reva41@roq.tech",
+        "firstName": "Anastacio",
+        "lastName": "Rowe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/660.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b9899a77-b232-4e67-851a-a57ce2d05e83",
+        "email": "Bret.Ernser@roq.tech",
+        "firstName": "Geovany",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49788963",
+        "tenantId": null
+      },
+      {
+        "reference": "21129880-80c0-4c7c-91c0-563237116c16",
+        "email": "Dock_Volkman46@roq.tech",
+        "firstName": "Marianne",
+        "lastName": "Botsford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/70.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d4e09933-e796-42a3-ae0c-cf0a3c560b4e",
+        "email": "Jaylen.Stiedemann@roq.tech",
+        "firstName": "Gideon",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29491863",
+        "tenantId": null
+      },
+      {
+        "reference": "d83e55d2-d6e5-4007-b523-d29cc2880741",
+        "email": "Philip_Mertz74@roq.tech",
+        "firstName": "Waino",
+        "lastName": "Bauch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/291.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "property": [
+      {
+        "id": "6cf0b38e-af37-4b35-9fef-a6c1630f9940",
+        "address": "123 Main St",
+        "property_value": 65373,
+        "property_type": "House",
+        "property_status": "For Sale",
+        "created_at": "2023-10-05T11:12:26.099Z",
+        "updated_at": "2023-10-05T16:08:00.041Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "d63760e7-3f4f-43bb-8405-bbebae9b1df6",
+        "address": "456 Elm St",
+        "property_value": 90218,
+        "property_type": "Apartment",
+        "property_status": "For Rent",
+        "created_at": "2023-10-05T21:04:05.817Z",
+        "updated_at": "2023-10-05T10:58:47.993Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "dd307530-d011-46ad-8a94-3c76e8283d69",
+        "address": "789 Oak St",
+        "property_value": 39412,
+        "property_type": "Condo",
+        "property_status": "Under Contract",
+        "created_at": "2023-10-05T14:26:48.386Z",
+        "updated_at": "2023-10-05T05:57:51.840Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "b835942d-887d-4f52-b5f6-98e5be45ec3c",
+        "address": "321 Pine St",
+        "property_value": 15581,
+        "property_type": "Townhouse",
+        "property_status": "Sold",
+        "created_at": "2023-10-05T19:52:41.107Z",
+        "updated_at": "2023-10-05T11:56:49.221Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "bb8ffe21-8a85-4f9e-afbb-054010fece8e",
+        "address": "654 Maple St",
+        "property_value": 97602,
+        "property_type": "Duplex",
+        "property_status": "Vacant",
+        "created_at": "2023-10-05T17:10:18.808Z",
+        "updated_at": "2023-10-05T08:05:02.458Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "loan": [
+      {
+        "id": "33b3bde5-3a21-41de-8efc-27407c9aec0d",
+        "loan_amount": 16445,
+        "interest_rate": 72797,
+        "loan_term": 40654,
+        "loan_status": "Pending",
+        "created_at": "2023-10-05T09:36:34.371Z",
+        "updated_at": "2023-10-05T08:13:48.274Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "bb8ffe21-8a85-4f9e-afbb-054010fece8e"
+      },
+      {
+        "id": "727bfd48-7b59-4b8c-b851-86303ddc8aa1",
+        "loan_amount": 56046,
+        "interest_rate": 528,
+        "loan_term": 50258,
+        "loan_status": "Approved",
+        "created_at": "2023-10-05T17:51:57.429Z",
+        "updated_at": "2023-10-05T21:28:48.373Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "b835942d-887d-4f52-b5f6-98e5be45ec3c"
+      },
+      {
+        "id": "31bf16a1-70ba-4a94-95fd-1764c3805f9f",
+        "loan_amount": 46699,
+        "interest_rate": 20788,
+        "loan_term": 91096,
+        "loan_status": "Rejected",
+        "created_at": "2023-10-05T15:43:28.443Z",
+        "updated_at": "2023-10-06T00:12:18.107Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "dd307530-d011-46ad-8a94-3c76e8283d69"
+      },
+      {
+        "id": "01597760-24e2-45b8-b837-228ce79a889d",
+        "loan_amount": 57450,
+        "interest_rate": 4916,
+        "loan_term": 41329,
+        "loan_status": "In Progress",
+        "created_at": "2023-10-05T19:47:54.687Z",
+        "updated_at": "2023-10-05T10:37:14.577Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "d63760e7-3f4f-43bb-8405-bbebae9b1df6"
+      },
+      {
+        "id": "9a819e44-aa20-4135-b080-4ca727467af9",
+        "loan_amount": 51579,
+        "interest_rate": 59523,
+        "loan_term": 55223,
+        "loan_status": "Closed",
+        "created_at": "2023-10-05T04:59:26.829Z",
+        "updated_at": "2023-10-05T08:14:48.662Z",
+        "lender_id": "user_entity_pk",
+        "property_id": "b835942d-887d-4f52-b5f6-98e5be45ec3c"
+      }
+    ],
+    "quote": [
+      {
+        "id": "09f93cc9-7147-4a9a-aada-ed7a450dc9c1",
+        "quote_amount": 21311,
+        "interest_rate": 29073,
+        "loan_term": 60628,
+        "quote_status": "New",
+        "created_at": "2023-10-05T11:26:16.027Z",
+        "updated_at": "2023-10-05T23:33:38.021Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "727bfd48-7b59-4b8c-b851-86303ddc8aa1"
+      },
+      {
+        "id": "c1213d2e-f8cf-49f7-8375-e9b477d8e013",
+        "quote_amount": 163,
+        "interest_rate": 72473,
+        "loan_term": 59784,
+        "quote_status": "Pending",
+        "created_at": "2023-10-05T12:17:30.094Z",
+        "updated_at": "2023-10-05T20:01:18.780Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "31bf16a1-70ba-4a94-95fd-1764c3805f9f"
+      },
+      {
+        "id": "ef316a74-9479-4410-bc0f-2d9c1f5c3e7c",
+        "quote_amount": 70213,
+        "interest_rate": 64735,
+        "loan_term": 44863,
+        "quote_status": "Accepted",
+        "created_at": "2023-10-05T18:53:10.003Z",
+        "updated_at": "2023-10-05T06:36:17.952Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "01597760-24e2-45b8-b837-228ce79a889d"
+      },
+      {
+        "id": "bc187bf1-d01d-497c-a46d-fd642a2bda1c",
+        "quote_amount": 70029,
+        "interest_rate": 69991,
+        "loan_term": 46000,
+        "quote_status": "Expired",
+        "created_at": "2023-10-05T11:56:18.417Z",
+        "updated_at": "2023-10-06T04:44:55.759Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "31bf16a1-70ba-4a94-95fd-1764c3805f9f"
+      },
+      {
+        "id": "04a5d893-addc-429e-940d-c735489b428e",
+        "quote_amount": 22377,
+        "interest_rate": 30274,
+        "loan_term": 2943,
+        "quote_status": "Declined",
+        "created_at": "2023-10-05T17:08:52.919Z",
+        "updated_at": "2023-10-06T03:32:10.651Z",
+        "company_id": "main_entity_pk",
+        "loan_id": "33b3bde5-3a21-41de-8efc-27407c9aec0d"
+      }
+    ],
+    "application": [
+      {
+        "id": "0c9698b1-80d8-432e-bbc3-ad4e1f4706b0",
+        "application_status": "Submitted",
+        "created_at": "2023-10-05T12:54:37.912Z",
+        "updated_at": "2023-10-05T12:00:06.290Z",
+        "loan_id": "33b3bde5-3a21-41de-8efc-27407c9aec0d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "322b3883-93c7-4e84-9f9b-79d24852b14c",
+        "application_status": "Under Review",
+        "created_at": "2023-10-05T14:42:51.146Z",
+        "updated_at": "2023-10-06T03:53:34.379Z",
+        "loan_id": "33b3bde5-3a21-41de-8efc-27407c9aec0d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9c3972e-5f36-4de2-8486-12b6e2af0554",
+        "application_status": "Approved",
+        "created_at": "2023-10-05T11:33:48.538Z",
+        "updated_at": "2023-10-06T01:39:01.762Z",
+        "loan_id": "727bfd48-7b59-4b8c-b851-86303ddc8aa1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b14fab6-a7d7-475b-9380-a58c4d9769cb",
+        "application_status": "Rejected",
+        "created_at": "2023-10-06T00:33:23.413Z",
+        "updated_at": "2023-10-05T15:01:58.606Z",
+        "loan_id": "31bf16a1-70ba-4a94-95fd-1764c3805f9f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c2cc451-3956-493c-83d4-9003b5c2ef30",
+        "application_status": "Closed",
+        "created_at": "2023-10-05T22:31:59.616Z",
+        "updated_at": "2023-10-05T21:52:19.212Z",
+        "loan_id": "9a819e44-aa20-4135-b080-4ca727467af9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "351afe63-9729-45e9-a33d-6ed423354690",
+        "email": "Gerhard88@roq.tech",
+        "firstName": "Fern",
+        "lastName": "Olson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/650.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8d9ff8d6-0e59-4e0a-b9f9-c4251edf9a9b",
+        "email": "Annabell_Murazik@roq.tech",
+        "firstName": "Horace",
+        "lastName": "Brown",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1008.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f2f0c647-e7b2-40d3-9b5d-d26644ee135b",
+        "email": "Aaron88@roq.tech",
+        "firstName": "Gideon",
+        "lastName": "Quitzon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/430.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "990882dd-bb1e-4571-8cf4-499e3ef54ac3",
+        "email": "Misty.Friesen@roq.tech",
+        "firstName": "Joshua",
+        "lastName": "Kutch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1050.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b35337d0-73d9-41d9-b9e6-ad0d92927743",
+        "email": "Connie34@roq.tech",
+        "firstName": "Krystel",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71072725",
+        "tenantId": null
+      }
+    ]
+  }
+]
